@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
+#include <math.h>
 
 /**
  * 判断数字是否为素数
@@ -26,6 +27,9 @@ int main() {
     printf("%d\n", f1); // 1 true
     bool f2 = false;
     printf("%d\n", f2); // 0 false
+
+    // sqrt 根下
+    printf("%lf", sqrt(4));
 
     return 0;
 }
