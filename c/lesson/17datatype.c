@@ -53,7 +53,11 @@ int main() {
     printf("%f\n", e); // 实际数值
 
     double f = 1.23456789E-10;
-    printf("%.32f", f);
+    printf("%.32f\n", f);
+
+    // 指数形式表示，相当于3.456 * 10^3
+    int g = 3.456E3;
+    printf("%d\n", g);
 
     return 0;
 }
