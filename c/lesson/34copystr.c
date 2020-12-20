@@ -9,5 +9,8 @@ int main() {
         str ++;
     }
 
+    char s2[] = {"123"};
+    printf("%s\n", s2);
+    
     return 0;
 }
