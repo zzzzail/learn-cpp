@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 struct student_type {
     char name[10];
@@ -7,6 +8,7 @@ struct student_type {
     int age;
     char sex;
 };
+
 
 struct student_type stud[10];
 
@@ -23,7 +25,7 @@ int main() {
         fread(&stud[i], 10, 1, fp);
     }
 
-    for (i = 0; i < 10; i++) {
+    for (i = 0; i < 10; i ++) {
         printf("%s %d %d %c", stud[i].name, stud[i].num, stud[i].age, stud[i].sex);
     }
     
