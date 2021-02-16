@@ -5,6 +5,8 @@
         "locale": "c",
         "ostream": "c",
         "new": "c",
-        "sstream": "c"
+        "sstream": "c",
+        "ctype.h": "c",
+        "math.h": "c"
     }
 }
