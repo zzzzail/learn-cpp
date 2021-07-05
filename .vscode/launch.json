@@ -15,6 +15,7 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb",
+            "preLaunchTask": "C/C++: g++ 生成活动文件"
         },
         {
             "name": "gcc - Build and debug active file",
