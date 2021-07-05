@@ -26,7 +26,7 @@ int main() {
     // int &ax = x;
 
     int y = 20;
-    const int &ay = y;
+    const int & ay = y;
     cout << "ay=" << ay << endl;
     cout << "------ 分割线 ------" << endl;
 
@@ -39,8 +39,8 @@ int main() {
     // cout << "------ 分割线 ------" << endl;
 
     int oneInt = 1;
-    int &ref = oneInt; // ref是oneInt的引用，ref等价于oneInt
-    const int &refc = oneInt; // 定义常引用
+    int & ref = oneInt; // ref是oneInt的引用，ref等价于oneInt
+    const int & refc = oneInt; // 定义常引用
     ref = 2; // 修改ref也修改了oneInt
     cout << "oneInt=" << oneInt << endl;
     cout << "ref=" << ref << endl;
@@ -51,7 +51,7 @@ int main() {
     cout << "ref=" << ref << endl;
     cout << "refc=" << refc << endl;
 
-    int &ref2 = ref;
+    int & ref2 = ref;
     ref2 = 4; // 修改ref2也修改了ref
     cout << "oneInt=" << oneInt << endl;
     cout << "ref=" << ref << endl;
